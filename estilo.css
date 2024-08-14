@@ -9,41 +9,41 @@
 	text-align: center;
 }
 
-#bordaimg {
+.bordaimg {
 	border: solid darkgrey 8px;
 }
 
-.corAbas {
+.corSelecao {
 	background-color: #DFE8B8;
 	block-size: 75px;
 }
 
-.fonte {
+.fonteAbas {
 	color: #5B81B2;
 	font-family: Arial, Sans-serif;	
 	font-weight: bold;
-	font-size: 25px;
+	font-size: 20px;
 	position: relative;
-	top: 20px; left: 15px;
-
+	top: 25px; left: 15px;
 } 
 
-.fonteSobre {
+.fonteInicio {
 	color: #7F8662;
 	background-color: #F6FAE2;
 	font-family: Arial, Sans-serif;	
-	text-indent: 1em;
+	padding: 1em;
 }
 
 .fonteTexto { 
 	color: #0C0C0B;
-	
 }
+
 
 a {
 	text-decoration: none;
+	font-weight: bold;
 }
 
-p {
-	padding: 10px;
+span {
+	font-size: 25px;
 }
